@@ -17,7 +17,7 @@ export default function WeatherInfo(props) {
           </div>
           <div className="col-2 text-center">
             <div>
-              <WeatherIcon code={props.data.iconUrl} />
+              <WeatherIcon code={props.data.iconUrl} size={64} />
             </div>
           </div>
           <div className="col-2">
@@ -26,7 +26,7 @@ export default function WeatherInfo(props) {
           </div>
           <div className="col-5 text-center">
             <h5>
-              <FormattedDate date={props.data.date} size={64} />
+              <FormattedDate date={props.data.date} />
             </h5>
             <h1>{props.data.city}</h1>
 

@@ -1,7 +1,7 @@
 .Weather {
   border: 2px solid #afdcf0;
   max-width: 700px;
-  min-height: 230px;
+
   display: block;
   margin: 0 auto;
   background-color: #ebf3f7;
@@ -56,10 +56,4 @@
   font-weight: bold;
   color: #3a4c53;
   line-height: 1;
-}
-
-.Weather canvas {
-  height: 64px;
-  width: 64px;
-  margin-top: 6px;
 }
