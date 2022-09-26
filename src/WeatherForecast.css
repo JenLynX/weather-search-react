@@ -1,7 +1,9 @@
 .WeatherForecast {
   text-align: center;
-  font-family: Cormorant;
+  font-family: Amiri;
+  padding-bottom: 20px;
 }
 .Forecast-temp-min {
   opacity: 0.6;
+  padding-left: 3px;
 }
